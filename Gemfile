@@ -44,6 +44,8 @@ gem "bootsnap", require: false
 
 gem 'mongoid'
 
+gem 'rspec'
+
 gem 'webpacker', git: 'https://github.com/rails/webpacker.git'
 
 group :development, :test do
