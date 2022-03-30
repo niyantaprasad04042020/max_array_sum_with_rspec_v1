@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  get "/max_array_sum", to: "max_array_sum#sub_array"
 end

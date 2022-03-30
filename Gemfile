@@ -44,9 +44,13 @@ gem "bootsnap", require: false
 
 gem 'mongoid'
 
-gem 'rspec'
+gem 'rspec-rails', '~> 5.0.0'
 
 gem 'webpacker', git: 'https://github.com/rails/webpacker.git'
+
+gem 'factory_bot_rails'
+
+gem 'pry'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
